@@ -1,0 +1,27 @@
+name: MoreHeadDrops
+author: loohp
+version: 1.0.0
+main: com.loohp.moreheaddrops.MoreHeadDrops
+api-version: 1.13
+description: MoreHeadDrops
+prefix: MoreHeadDrops
+
+commands:
+  moreheaddrops:
+    usage: /<command>
+    aliases: [mhd, heads]
+    description: Plugin main command
+
+permissions:
+  moreheaddrops.reload:
+    description: Allows you to reload the plugin
+    default: op
+  moreheaddrops.give.player:
+    description: Allows you to reload the plugin
+    default: op
+  moreheaddrops.give.mob:
+    description: Allows you to reload the plugin
+    default: op
+  moreheaddrops.player.exempt:
+    description: Exempt your head to be dropped
+    default: false
